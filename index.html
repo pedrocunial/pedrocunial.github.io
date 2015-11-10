@@ -11,7 +11,13 @@
 <html>
   <head>
   	<link rel="stylesheet" href="customize.css"></link>
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  	
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script>$(document).ready(function() {
+    $("#some_text").on("click", function() {
+        $("#some_text").toggle();
+    	});
+		});
+  	</script>
   </head>
   <body>
   	  <!-- Navigation Bar -->
@@ -37,8 +43,5 @@
 	  </nav>
 	<p>Olha só, eu não te conheço, mas fica ligado nesse site que o bagulho é very crazy</p>
 	<h3 id="some_text">TEST TEST TEST</h3>
-		$("#some_text").click(function() {
-	    $("#some_text").css("color", "red").text("This is new text");
-		});
   	</body>
 </html>
