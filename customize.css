@@ -3,3 +3,9 @@ body {
     font-size: 24px;
     color: purple;
 }
+
+#navbarCollapse {
+	font: comic;
+	font-size: 12px;
+	color: purple;
+}
