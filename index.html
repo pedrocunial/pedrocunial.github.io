@@ -12,10 +12,11 @@
   <head>
   	<link rel="stylesheet" href="customize.css"></link>
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  	<script>$(document).ready(function() {
-    $("#some_text").on("click", function() {
-        $("#some_text").toggle();
-    	});
+  	<script>
+	  	$(document).ready(function() {
+	    	$("#some_text").on("hover", function() {
+	        	$("#some_text").toggle();
+	    	});
 		});
   	</script>
   </head>
